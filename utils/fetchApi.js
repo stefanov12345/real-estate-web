@@ -1,5 +1,5 @@
 import axios from 'axios';
-const baseUrl = 'https://bayut.p.rapidapi.com'
+export const baseUrl = 'https://bayut.p.rapidapi.com'
 
 
 export const fetchApi = async( url) => {
